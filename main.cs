@@ -8,7 +8,11 @@ namespace MyApp
         {
             int[] numbers = {5, 10, 15, 20, 25}
             double average = CalculateAverage(numbers);
+            int max = FindMaxValue(numbers);
             Console.WriteLine("average is equal to: " + average);
+            Console.WriteLine("max is equal to: " + max);
+
+            
         }
         public static double CalculateAverage(int[] numbers)
         {
